@@ -17,4 +17,4 @@ If you do not have pip, you could clone the repo and enter ```python setup.py in
 3. Start a terminal and input ```iconbuilder```, then the program will look for the files and resize it to the pixels you want.
 
 
-![Icon Builder](https://ws4.sinaimg.cn/large/651b652ejw1f7iylxdtskj20ie0j8q6i.jpg)
+![Icon Builder](https://ws3.sinaimg.cn/mw690/651b652ejw1f7iyokt72sj20ie0j8q6i.jpg)
