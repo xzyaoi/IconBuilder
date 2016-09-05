@@ -1,3 +1,6 @@
+
+![IB Logo](https://ws3.sinaimg.cn/large/651b652ejw1f7iz417z59j208c05o74c.jpg)
+
 ## How it works
 
 ### Install
