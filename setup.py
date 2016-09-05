@@ -1,7 +1,8 @@
 from setuptools import setup,find_packages
+
 setup(
     name='iconbuilder',
-    version='0.0.1',
+    version='0.0.3',
     keywords=('image','resizer'),
     description='just a simple image resizer',
     license='GPL License',
@@ -11,8 +12,9 @@ setup(
     author_email='xiaozhe.yaoi@gmail.com',
     packages=find_packages(),
     platforms='any',
+    url='https://github.com/stevefermi/IconBuilder',
     entry_points='''
         [console_scripts]
-        iconbuilder=iconbuilder:main
+        iconbuilder=iconbuilder.iconbuilder:main
     ''',
 )
