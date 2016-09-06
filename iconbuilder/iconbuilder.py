@@ -31,26 +31,29 @@ class IconBuilder:
         img=target
         target.save(folder+'/'+name+'@'+str(pixel)+'.png')
 
-    def run_auto(self,pixels):
+    def run_auto(self,pixels,name):
         imglist=self.pic_walker(self.picpath)
         self.make_folder()
         for img in imglist:
             imgfile=self.picpath+'/'+img
             for each in pixels:
-                self.save_pic(self.pic_resizer(imgfile,each,each),self.picpath+'/resized',each,'logo')
+                self.save_pic(self.pic_resizer(imgfile,each,each),self.picpath+'/resized',each,name)
 @click.command()
-def main():
+@click.option('--filename',prompt='Your desired resolutions files',help='Your desired resolutions files')
+@click.option('--name',prompt='New Logo files name',help='New Logo Files Name')
+def main(filename,name):
+    '''A Simple & Useful Tool for Logo Resizer'''
     cwd=os.getcwd()
     print cwd
     ib=IconBuilder(cwd)
-    f=open('pixels.txt')
+    f=open(filename)
     line=f.readline()
     pixels=[]
     while line:
         pixels.append(int(line))
         line=f.readline()
     f.close()
-    ib.run_auto(pixels)
+    ib.run_auto(pixels,name)
 
 if __name__ == '__main__':
     sys.exit(int(main() or 0))
