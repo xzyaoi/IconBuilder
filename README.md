@@ -17,7 +17,9 @@ If you do not have pip, you could clone the repo and enter ```python setup.py in
 
 2. Make a new file named ```pixels.txt```. in this file, enter the new pixels as you want. Every desired pixel should be in a line.
 
-3. Start a terminal and input ```iconbuilder```, then the program will look for the files and resize it to the pixels you want.
+3. Start a terminal and input ```iconbuilder --help```, then the program will give you the usage.
+
+4. input ```iconbuilder```, then the program will give you prompt to enter the required options.
 
 
 ![Icon Builder](https://ws3.sinaimg.cn/mw690/651b652ejw1f7iyokt72sj20ie0j8q6i.jpg)
