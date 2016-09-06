@@ -1,4 +1,4 @@
-
+![Travis Build Phase](https://api.travis-ci.org/stevefermi/IconBuilder.svg?branch=master)
 ![IB Logo](https://ws3.sinaimg.cn/large/651b652ejw1f7iz417z59j208c05o74c.jpg)
 
 ## How to Use
